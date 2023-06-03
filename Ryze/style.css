@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
 
 @font-face {
     font-family: Lostar;
@@ -27,11 +27,13 @@ body {
 
 .top {
     margin-bottom: 200px;
-    font-size: 36px;
+
+    font-size: 30px;
     font-family: Lostar;
     text-align: center;
+    
     background-color: #0077b6;
-}
+} 
 
 .menu {
     background-color: #002855;
@@ -44,6 +46,12 @@ body {
     margin: 0 auto;
 }
 
+    .menu__section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .menu__titulo {
     font-size: 34px;
     font-family: Ponzi Hat;
@@ -51,8 +59,67 @@ body {
 
     .menu__texto {
     font-size: 17px;
-    font-family: 'Cabin', sans-serif;;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
     }
+
+    .menu__ancora {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+        
+        .menu__ancora__1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+            .menu__ancora__1__link {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                width: 200px;
+                text-align: center;
+                align-items: baseline;
+                border: 2px solid #0077b6;
+                border-radius: 10px;
+                font-size: 16px;
+                padding: 13px 0px;
+                text-decoration: none;
+                color: #E0E1DD;
+                font-family: 'Cabin', sans-serif;
+                font-weight: 600;
+            }
+
+            .menu__ancora__1__link:hover {
+                background-color: #204099;
+            }
+
+        .menu__ancora__2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+            .menu__ancora__2__link {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                background-color: #0077b6;
+                width: 200px;
+                text-align: center;
+                align-items: baseline;
+                border-radius: 10px;
+                font-size: 16px;
+                padding: 13px 0px;
+                text-decoration: none;
+
+                color: #E0E1DD;
+                font-family: 'Cabin', sans-serif;
+                font-weight: 600;
+            }
+            .menu__ancora__2__link:hover {
+                  background-color: #1A467C;
+            }
 
     .runa {
     color: #0077b6;

@@ -9,19 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="top"> Ryze </header> <!--A tag <header> adiciona o cabeçalho.-->
+    <header class="top"> 
+        <h1>Ryze</h1> 
+    </header> <!--A tag <header> adiciona o cabeçalho.-->
     <main class="menu"> <!--O <main> é o corpo principal do site, onde vai o conteúdo.-->
         <section class="menu__section">
             <h1 class="menu__titulo">Sinto outra <span class="runa">runa</span>... Mas onde?</h1>
             <P class="menu__texto"> Oi, eu sou o <strong class="name"> Gustavo! </strong> Aqui embaixo estão minhas redes sociais. 📌</P>
-            <a href="https://twitter.com/twitch1v9"> Twitter </a>
-            <a href="https://www.instagram.com/stavu.png/"> Instagram </a>
-            <a href="https://github.com/slowdwn"> Github </a>
-            <a href="https://www.linkedin.com/in/gustavo-slow-ferreira/"> Linkedin </a>
+            <div class="menu__ancora">
+                <div class="menu__ancora__1">
+                    <a class="menu__ancora__1__link" href="https://twitter.com/twitch1v9"> 
+                        <ion-icon name="logo-twitter"></ion-icon> 
+                        Twitter 
+                    </a>
+                    <a class="menu__ancora__1__link" href="https://www.instagram.com/stavu.png/"> 
+                        <ion-icon name="logo-instagram"></ion-icon> 
+                        Instagram 
+                    </a>
+                </div>
+                <div class="menu__ancora__2">
+                    <a class="menu__ancora__2__link" href="https://github.com/slowdwn"> 
+                        <ion-icon name="logo-github"></ion-icon> 
+                        Github 
+                    </a>
+                    <a class="menu__ancora__2__link" href="https://www.linkedin.com/in/gustavo-slow-ferreira/"> 
+                        <ion-icon name="logo-linkedin"></ion-icon> 
+                        Linkedin 
+                    </a>
+                </div>
+            </div>
         </section>
         <img src="/images/ryzeL.jpg">
     </main>
     <footer class="bot"> bla bla bla </footer>
-    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
